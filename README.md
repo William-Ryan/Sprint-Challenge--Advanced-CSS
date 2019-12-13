@@ -31,16 +31,26 @@ In meeting the minimum viable product (MVP) specifications listed below, your we
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
-
++
 1. What is the difference between an adaptive website and a fully responsive website?
+
+A: The differences between an adaptive website and a fully responsive website are in their reactions to width. Responsive will adjust itself from 100px to 100000px and will constantly adjust its layout through and in-between. Adaptive is tailor made to adjust its layout at very specific points of width for different devices.
 
 2. Describe what it means to be mobile first vs desktop first.
 
+A: If a website is mobile first it means that the design intention is that mobile would be primarily used for viewing and desktop is vice versa. Since a mobile first website would be built around the mobile devices frame you'd code all your CSS width from min-width and up. Desktop would be the same but with desktop as the intended frame you would build max-width and down till all width sizes were covered.
+
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+
+A: Placing font-size: 62.5% in the html tag in your CSS set the root font size to 10px. So when using math involved with rem and em units it helps simplify the solution into an easier math equation.
 
 4. How would you describe preprocessing to someone new to CSS?
 
+A. Preprocessing that creates its own unique syntax(code) into your already existing program language. It can add features that can make your code cleanier and easier to input into your program that would otherwise not exist without it.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+A: My favorite concept in preprocessing is the unique features that help clean up and makes the process of grouping(nesting) a lot more simple and easier to track when it comes to what areas affect where. The most troubling concept for me is the potiental instability that can come with using a preprocessor, though they are made to make our lives easier they still contain their own naunces that need to be respected. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
