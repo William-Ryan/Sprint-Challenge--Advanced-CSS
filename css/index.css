@@ -169,6 +169,12 @@ nav {
   margin: 0% 23%;
   background: azure;
 }
+@media ( max-width: 500px ) {
+  nav {
+    margin: 0% 0%;
+    padding: 2%;
+  }
+}
 nav h1 {
   font-size: 4rem;
   font-weight: bold;
@@ -178,8 +184,18 @@ nav div {
   width: 60%;
   text-align: center;
 }
+@media ( max-width: 500px ) {
+  nav div {
+    width: 100%;
+  }
+}
 nav a {
   margin: 0% 2%;
+}
+@media ( max-width: 500px ) {
+  nav a {
+    margin: 0% 3%;
+  }
 }
 footer {
   color: #22283B;
