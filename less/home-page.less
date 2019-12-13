@@ -1,6 +1,12 @@
 // Home Content
 
 .home {
+
+  p{
+      animation-name: example;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+  }
   
   .header-img{
     max-width:100%;
@@ -26,7 +32,12 @@
     }
 
     p {
-      padding:0 15px;
+      padding: 15px;
+      
+    
+      @media @phone{
+        padding: 0% 15px;
+      }
     }
   
   }

@@ -1,3 +1,30 @@
+@keyframes example {
+  0% {
+    background-color: orange;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: pink;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: navy;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: lightcoral;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: crimson;
+    left: 0px;
+    top: 0px;
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -208,6 +235,11 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.home p {
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
 .home .header-img {
   max-width: 100%;
 }
@@ -226,7 +258,12 @@ footer {
   padding: 15px;
 }
 .home .intro p {
-  padding: 0 15px;
+  padding: 15px;
+}
+@media ( max-width: 500px ) {
+  .home .intro p {
+    padding: 0% 15px;
+  }
 }
 .home .space-images {
   display: flex;
