@@ -11,3 +11,17 @@
     margin: 0% 23%;
     background: azure;
 }
+
+.main-button(@bg-color, @font-color){
+    padding: 2% 5%;
+    border-radius: 0.5rem;
+    font-size: 1.7rem;
+    background: @bg-color;
+    color: @font-color;
+    font-weight: bolder;
+
+    &:hover{
+        background-color: yellow;
+        color: red;
+    } 
+}
